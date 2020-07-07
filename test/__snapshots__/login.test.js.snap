@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login View renders the correct login markup 1`] = `
+"<div class=\\"login\\">
+  <div class=\\"columns is-mobile is-centered\\">
+    <div class=\\"column is-half\\">
+      <form class=\\"login__form\\">
+        <h1 class=\\"login__form-title is-size-4 pb-2\\">Login</h1>
+        <!---->
+        <div class=\\"field\\"><label class=\\"label\\">Username/Email</label>
+          <div class=\\"control\\"><input type=\\"text\\" placeholder=\\"Your username or e-mail address\\" class=\\"input login__form-email-input is-success\\"></div>
+          <p class=\\"login__form-email-error help is-danger is-hidden\\">This username/email is invalid</p>
+        </div>
+        <div class=\\"field\\"><label class=\\"label\\">Password</label>
+          <div class=\\"control\\"><input type=\\"password\\" placeholder=\\"Password\\" class=\\"input login__form-password-input is-success\\"></div>
+        </div>
+        <div class=\\"field\\">
+          <p class=\\"control\\"><button disabled=\\"disabled\\" class=\\"button is-primary login__form-button--disabled\\">Login</button></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!---->
+</div>"
+`;

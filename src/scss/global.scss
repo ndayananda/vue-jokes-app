@@ -1,0 +1,4 @@
+body {
+    font: normal $default-font-size $default-font-family;
+    color: lighten($color: $black, $amount: 20%);
+}
